@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>RelixZoon — Your Music. Your Fans. Your Future.</title>
+  <meta name="description" content="RelixZoon is a music discovery and direct-to-fan platform where independent artists release music, sell it directly to fans and earn from fan subscriptions. Launching first with African artists and audiences.">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Replace YOUR-DOMAIN with the live site address once you have it, e.g. https://relixzoon.com/ -->
+  <link rel="canonical" href="https://YOUR-DOMAIN/">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="RelixZoon">
+  <meta property="og:title" content="RelixZoon — Your Music. Your Fans. Your Future.">
+  <meta property="og:description" content="Release music on your terms, sell directly to fans, and grow a community that supports you. Built for independent artists.">
+  <meta property="og:url" content="https://YOUR-DOMAIN/">
+  <meta property="og:image" content="https://YOUR-DOMAIN/assets/og/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="RelixZoon — Your Music. Your Fans. Your Future.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="RelixZoon — Your Music. Your Fans. Your Future.">
+  <meta name="twitter:description" content="Release music on your terms, sell directly to fans, and grow a community that supports you.">
+  <meta name="twitter:image" content="https://YOUR-DOMAIN/assets/og/og-image.jpg">
+
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+
+  <link rel="preload" href="assets/fonts/unbounded.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/hanken.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"RelixZoon","url":"https://YOUR-DOMAIN/","logo":"https://YOUR-DOMAIN/assets/brand/relixzoon-icon-512.png"}
+  </script>
+
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner wrap">
+      <a class="brand" href="#top" aria-label="RelixZoon home">
+        <span class="brand__text" data-logo>RelixZoon</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Main">
+        <a href="#top">Home</a>
+        <a href="#discover">Discover</a>
+        <a href="#artists">For Artists</a>
+        <a href="#how">How It Works</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <a class="btn btn--pink btn--sm nav__cta" data-link="getStarted" href="#join">Get Started</a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Mobile">
+        <a href="#top">Home</a>
+        <a href="#discover">Discover</a>
+        <a href="#artists">For Artists</a>
+        <a href="#how">How It Works</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="btn btn--pink" data-link="getStarted" href="#join">Get Started</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__art art" data-art="hero" aria-hidden="true"></div>
+      <div class="hero__aurora" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <canvas class="hero__wave" aria-hidden="true"></canvas>
+      <div class="hero__veil" aria-hidden="true"></div>
+
+      <div class="hero__content wrap">
+        <h1 class="hero__title" id="hero-title">
+          <span>Your Music.</span>
+          <span>Your Fans.</span>
+          <span>Your Future.</span>
+        </h1>
+        <p class="hero__lede">RelixZoon helps independent artists release music on their own terms, connect directly with listeners, and earn from music sales and fan subscriptions.</p>
+        <div class="hero__actions">
+          <a class="btn btn--pink" data-link="app" data-fallback="#discover" href="#discover">Explore RelixZoon</a>
+          <a class="btn btn--ghost" data-link="artistSignup" data-soon="Artist registration opens soon." href="#join">Join as an Artist</a>
+        </div>
+        <p class="hero__note">Launching first with African artists and music audiences.</p>
+      </div>
+    </section>
+
+    <!-- ===================== DISCOVER ===================== -->
+    <section class="section discover" id="discover" aria-labelledby="discover-title">
+      <div class="wrap discover__grid">
+        <div class="discover__copy" data-reveal>
+          <h2 id="discover-title" class="h2">Hear it first. Follow it far.</h2>
+          <p class="lede">The Discover feed plays short previews from emerging and established artists, so finding your next favourite takes seconds, not hours.</p>
+          <ul class="ticks">
+            <li><strong>Emerging artists</strong> next to established names, in one feed.</li>
+            <li><strong>Short previews</strong> so you can try a track before you unlock it.</li>
+            <li><strong>New releases</strong> as artists drop them.</li>
+            <li><strong>Artist profiles</strong> with music, photos and videos in one place.</li>
+            <li><strong>Follow and react</strong> to the artists you care about.</li>
+          </ul>
+        </div>
+
+        <figure class="discover__media" data-reveal>
+          <div class="frame art" data-art="discover">
+            <div class="fallback fallback--discover" aria-hidden="true">
+              <div class="eq"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== ARTISTS ===================== -->
+    <section class="section artists" id="artists" aria-labelledby="artists-title">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <h2 id="artists-title" class="h2">Built for independent artists.</h2>
+          <p class="lede">Put your music out, set how fans get it, and keep the relationship with the people who support you.</p>
+        </div>
+
+        <div class="artists__layout">
+          <div class="artists__art art" data-art="artists" aria-hidden="true">
+            <div class="fallback fallback--artists"></div>
+          </div>
+
+          <ul class="features" role="list">
+            <li class="feature">
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 32V10m0 0-8 8m8-8 8 8"/><path d="M10 30v6a4 4 0 0 0 4 4h20a4 4 0 0 0 4-4v-6"/></svg>
+              <h3>Upload your music</h3>
+              <p>Release singles, EPs and albums from one place.</p>
+            </li>
+            <li class="feature">
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="12" y="22" width="24" height="18" rx="4"/><path d="M17 22v-5a7 7 0 0 1 13.6-2.4"/><circle cx="24" cy="31" r="2.5"/></svg>
+              <h3>Sell directly to fans</h3>
+              <p>Offer music through paid unlocks. Fans buy from you, not from a per-stream pool.</p>
+            </li>
+            <li class="feature">
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="18" cy="18" r="6"/><circle cx="33" cy="20" r="4.5"/><path d="M7 38c1.5-6 6-9 11-9s9.5 3 11 9"/><path d="M30 30c4 0 8 2.5 9.5 7"/></svg>
+              <h3>Build your audience</h3>
+              <p>Grow followers with a profile that holds your music, photos and music videos.</p>
+            </li>
+            <li class="feature">
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 39s-13-7.6-13-17a7 7 0 0 1 13-3.6A7 7 0 0 1 37 22c0 9.4-13 17-13 17Z"/><path d="M36 8v8m-4-4h8"/></svg>
+              <h3>Fan subscriptions</h3>
+              <p>Let your biggest supporters subscribe to you directly.</p>
+            </li>
+            <li class="feature">
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="10" width="32" height="30" rx="4"/><path d="M8 18h32M16 6v8M32 6v8"/><path d="M16 28h6m-6 6h12"/></svg>
+              <h3>Manage your releases</h3>
+              <p>Choose a release strategy and keep your catalogue organised.</p>
+            </li>
+            <li class="feature">
+              <svg class="icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40h32"/><path d="M12 34V24m8 10V16m8 18V20m8 14V10"/></svg>
+              <h3>Track your earnings</h3>
+              <p>See what you've earned from purchases and subscriptions.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="strategies" data-reveal>
+          <h3 class="h3">Three ways to release</h3>
+          <div class="strategies__row">
+            <div class="strategy">
+              <h4>Exclusive</h4>
+              <p>Your release lives on RelixZoon only.</p>
+            </div>
+            <div class="strategy">
+              <h4>RelixZoon First</h4>
+              <p>Fans here hear it before anywhere else.</p>
+            </div>
+            <div class="strategy">
+              <h4>Same-Day Worldwide</h4>
+              <p>Out on RelixZoon the same day as everywhere else.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FANS ===================== -->
+    <section class="fans" id="fans" aria-labelledby="fans-title">
+      <div class="fans__art art" data-art="fans" aria-hidden="true">
+        <div class="fallback fallback--fans"></div>
+      </div>
+      <div class="fans__veil" aria-hidden="true"></div>
+      <div class="wrap fans__content">
+        <div data-reveal>
+          <h2 id="fans-title" class="h2">Made for people who listen closely.</h2>
+          <p class="lede">Find the artists you'll be telling friends about, and back them in a way they actually feel.</p>
+        </div>
+        <ul class="fan-list" role="list">
+          <li><h3>Discover</h3><p>Great music from artists you haven't heard yet.</p></li>
+          <li><h3>Unlock</h3><p>Releases you want to keep, straight from the artist.</p></li>
+          <li><h3>Support</h3><p>Subscribe directly to the artists you love.</p></li>
+          <li><h3>Follow</h3><p>Keep up with new drops and posts.</p></li>
+          <li><h3>Watch</h3><p>Music videos, photos and the story behind the songs.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== HOW IT WORKS ===================== -->
+    <section class="section how" id="how" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-head section-head--center" data-reveal>
+          <h2 id="how-title" class="h2">How RelixZoon works</h2>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Choose a path">
+          <button class="tab" role="tab" id="tab-artists" aria-controls="panel-artists" aria-selected="true">For artists</button>
+          <button class="tab" role="tab" id="tab-fans" aria-controls="panel-fans" aria-selected="false" tabindex="-1">For fans</button>
+          <span class="tabs__pill" aria-hidden="true"></span>
+        </div>
+
+        <ol class="steps" id="panel-artists" role="tabpanel" aria-labelledby="tab-artists">
+          <li class="step">
+            <span class="step__num" aria-hidden="true">1</span>
+            <h3>Create an artist account</h3>
+            <p>Set up your profile with your name, photos and story.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">2</span>
+            <h3>Upload and release music</h3>
+            <p>Add your tracks and pick how you want to release them.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">3</span>
+            <h3>Connect with fans and earn</h3>
+            <p>Fans discover you, unlock your music and subscribe to you.</p>
+          </li>
+        </ol>
+
+        <ol class="steps" id="panel-fans" role="tabpanel" aria-labelledby="tab-fans" hidden>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">1</span>
+            <h3>Discover artists</h3>
+            <p>Scroll the Discover feed for new and established voices.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">2</span>
+            <h3>Preview and explore</h3>
+            <p>Play short previews, then dive into profiles, videos and photos.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">3</span>
+            <h3>Support artists directly</h3>
+            <p>Unlock their music or subscribe to them.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== WHY / ABOUT ===================== -->
+    <section class="section why" id="about" aria-labelledby="why-title">
+      <div class="wrap why__grid">
+        <div class="why__mission" data-reveal>
+          <h2 id="why-title" class="h2">Why RelixZoon?</h2>
+          <p class="mission">Our mission is to empower independent artists through direct audience relationships and more opportunities to monetise their creativity.</p>
+          <p class="why__aside">RelixZoon isn't a streaming service that pays per play. Fans pay artists directly, for the releases they unlock and the subscriptions they choose.</p>
+        </div>
+        <dl class="reasons">
+          <div><dt>More independence</dt><dd>You decide how and when your music is released.</dd></div>
+          <div><dt>Direct relationships</dt><dd>Fans follow, support and hear from you, without a middle layer.</dd></div>
+          <div><dt>Flexible release strategies</dt><dd>Exclusive, RelixZoon First or Same-Day Worldwide.</dd></div>
+          <div><dt>Revenue from your audience</dt><dd>Earn from music purchases and fan subscriptions.</dd></div>
+          <div><dt>Made with independent creators in mind</dt><dd>Designed around the problems independent artists actually face.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===================== APP SHOWCASE ===================== -->
+    <section class="section showcase" id="app" aria-labelledby="app-title">
+      <div class="wrap">
+        <div class="section-head section-head--center" data-reveal>
+          <h2 id="app-title" class="h2">Inside the app</h2>
+          <p class="lede">A look at the screens artists and fans use every day.</p>
+        </div>
+      </div>
+      <div class="phones" role="list">
+        <figure class="phone" role="listitem" data-shot="discover"><div class="phone__screen"></div><figcaption>Discover</figcaption></figure>
+        <figure class="phone" role="listitem" data-shot="artistProfile"><div class="phone__screen"></div><figcaption>Artist profile</figcaption></figure>
+        <figure class="phone" role="listitem" data-shot="releases"><div class="phone__screen"></div><figcaption>Music releases</figcaption></figure>
+        <figure class="phone" role="listitem" data-shot="dashboard"><div class="phone__screen"></div><figcaption>Artist dashboard</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- ===================== FINAL CTA ===================== -->
+    <section class="cta" id="join" aria-labelledby="cta-title">
+      <div class="cta__art art" data-art="cta" aria-hidden="true"></div>
+      <div class="cta__glow" aria-hidden="true"></div>
+      <div class="wrap cta__content" data-reveal>
+        <h2 id="cta-title" class="cta__title">Your next release belongs to you.</h2>
+        <p class="lede">Explore RelixZoon today, and be ready when artist registration opens.</p>
+        <div class="hero__actions hero__actions--center">
+          <a class="btn btn--white" data-link="app" data-fallback="#discover" href="#discover">Explore RelixZoon</a>
+          <a class="btn btn--ghost" data-link="artistSignup" data-soon="Artist registration opens soon." href="#join">Join as an Artist</a>
+        </div>
+        <p class="cta__status" data-signup-status>Artist registration isn't open yet. Check back soon.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="#top" aria-label="RelixZoon home"><span class="brand__text" data-logo>RelixZoon</span></a>
+        <p>Music discovery and direct fan support for independent artists.</p>
+      </div>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#about">About</a>
+        <a href="#artists">For Artists</a>
+        <a data-link="contact" data-soon="Contact details are coming soon." href="#">Contact</a>
+        <a data-link="privacy" data-soon="The Privacy Policy will be published here soon." href="#">Privacy Policy</a>
+        <a data-link="terms" data-soon="The Terms and Conditions will be published here soon." href="#">Terms and Conditions</a>
+      </nav>
+      <ul class="footer__social" data-social role="list" aria-label="RelixZoon on social media"></ul>
+    </div>
+    <div class="wrap footer__base">
+      <p>© <span data-year>2026</span> RelixZoon. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
