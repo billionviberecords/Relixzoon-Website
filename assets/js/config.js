@@ -13,6 +13,7 @@ window.RZ_CONFIG = {
 
   /* ---------- Links (use full https:// addresses) ---------- */
   links: {
+    waitlist:      "https://waitlist.relixzoon.com",   // Launch waitlist (live)
     app:           "",   // Main RelixZoon web app, e.g. "https://app.relixzoon.com"
     discover:      "",   // Public Discover feed in the app, if it can be opened without logging in
     artistSignup:  "",   // Artist registration page — leave empty until registration is public

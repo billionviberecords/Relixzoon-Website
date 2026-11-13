@@ -37,7 +37,7 @@
 
   /* ---------- Links: verified destination or "coming soon" ---------- */
   function resolve(key) {
-    if (key === "getStarted") return links.app || links.artistSignup || "";
+    if (key === "getStarted") return links.waitlist || links.app || links.artistSignup || "";
     if (key === "contact") return links.contactEmail ? "mailto:" + links.contactEmail.trim() : "";
     return links[key] || "";
   }
@@ -47,7 +47,7 @@
     var url = resolve(key);
     if (url && (isUrl(url) || url.indexOf("mailto:") === 0)) {
       a.href = url;
-      if (isUrl(url)) { a.target = "_blank"; a.rel = "noopener"; }
+      if (isUrl(url) && !/^https:\/\/([a-z0-9-]+\.)*relixzoon\.com/i.test(url)) { a.target = "_blank"; a.rel = "noopener"; }
       return;
     }
     var fallback = a.getAttribute("data-fallback");
